@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   const profileData = {
-    name: "Alex Morgan",
+    name: "Yash Deshpande",
     bio: "Digital creator, photographer, and coffee enthusiast. Sharing my journey through pixels and code.",
     avatar: "/placeholder.svg"
   };
