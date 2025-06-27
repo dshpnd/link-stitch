@@ -1,5 +1,4 @@
-
-import { Github, Instagram, Twitter, Mail, Globe, Coffee, BookOpen, Camera } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Globe, Camera } from "lucide-react";
 import ProfileHeader from "@/components/ProfileHeader";
 import LinkCard from "@/components/LinkCard";
 import Footer from "@/components/Footer";
@@ -7,58 +6,46 @@ import Footer from "@/components/Footer";
 const Index = () => {
   const profileData = {
     name: "Yash Deshpande",
-    bio: "Digital creator, photographer, and coffee enthusiast. Sharing my journey through pixels and code.",
-    avatar: "/placeholder.svg"
+    bio: "ECE Engineer and AI Enthusiast.",
+    avatar: "https://avatars.githubusercontent.com/u/144441249?v=4"
   };
 
   const links = [
     {
       title: "Portfolio Website",
-      description: "View my latest work and projects",
-      url: "https://example.com",
+      description: "Working on it!",
+      url: "https://pointerpointer.com/",
       icon: <Globe className="w-4 h-4 text-gray-600" />,
       featured: true
     },
     {
       title: "GitHub",
       description: "Open source projects and code",
-      url: "https://github.com",
+      url: "https://github.com/dshpnd",
       icon: <Github className="w-4 h-4 text-gray-600" />
     },
     {
-      title: "Photography Blog",
-      description: "Visual stories and tutorials",
-      url: "https://example.com/blog",
+      title: "Pinterest",
+      description: "My Public Camera Roll",
+      url: "https://www.pinterest.com/dshpnd9/",
       icon: <Camera className="w-4 h-4 text-gray-600" />
     },
     {
-      title: "Twitter",
-      description: "Daily thoughts and updates",
-      url: "https://twitter.com",
-      icon: <Twitter className="w-4 h-4 text-gray-600" />
+      title: "LinkedIn",
+      description: "Let's Connect",
+      url: "https://www.linkedin.com/in/dshpnd/",
+      icon: <Linkedin className="w-4 h-4 text-gray-600" />
     },
     {
       title: "Instagram",
-      description: "Behind the scenes content",
-      url: "https://instagram.com",
+      description: "Exclusive Content",
+      url: "https://instagram.com/yvsshh/",
       icon: <Instagram className="w-4 h-4 text-gray-600" />
-    },
-    {
-      title: "Reading List",
-      description: "Books that shaped my thinking",
-      url: "https://example.com/books",
-      icon: <BookOpen className="w-4 h-4 text-gray-600" />
-    },
-    {
-      title: "Buy Me a Coffee",
-      description: "Support my work",
-      url: "https://buymeacoffee.com",
-      icon: <Coffee className="w-4 h-4 text-gray-600" />
     },
     {
       title: "Contact",
       description: "Get in touch via email",
-      url: "mailto:hello@example.com",
+      url: "mailto:yashdeshpande2004@gmail.com",
       icon: <Mail className="w-4 h-4 text-gray-600" />
     }
   ];

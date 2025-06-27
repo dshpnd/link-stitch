@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="mt-12 pt-8 border-t border-gray-200 text-center animate-fade-in">
@@ -7,11 +6,11 @@ const Footer = () => {
           Link Stitch
         </h2>
         <p className="font-typewriter text-xs text-gray-500 mt-1">
-          Connecting your digital presence
+          By Yash Deshpande
         </p>
       </div>
       <p className="font-typewriter text-xs text-gray-400">
-        © 2024 Link Stitch. All rights reserved.
+        © 2025 Link Stitch. All rights reserved.
       </p>
     </footer>
   );
