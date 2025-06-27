@@ -1,5 +1,6 @@
-# link-stitch
+## Link Stitch - Link In Bio Tool
 
-## SUMMERTIME Project
+#### Link Tree Clone
 
 A modern link-in-bio application built with React, TypeScript, and Tailwind CSS.
+Check It Out Here
